@@ -52,7 +52,7 @@ Los cuatro `secrets.toml` locales llevan `SSO_DEV_OPEN = true`, así que **en lo
 no hay login**: ni el portal pide credenciales ni las apps piden token.
 
 ```powershell
-cd C:\Users\avoltan\PyCharmMiscProject\portal
+cd <ruta-de-tus-repos>\portal
 py -m pip install -r requirements.txt
 py -m streamlit run app.py                     # portal → localhost:8501
 ```
